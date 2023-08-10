@@ -1,0 +1,70 @@
+:root {
+    --main-bg-color: rgb(30, 28, 147);
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    padding: 0px 20px;
+    padding-top: 3px;
+    font-size: 16px;
+    font-family: var(--font1);
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    font-family: var(--font1);
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+}
+
+.font1 {
+    font-family: var(--font1);
+
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.form-box input,
+textarea {
+    width: 52vw;
+    padding: 0px 6px;
+    margin: 7px 0;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solod orange;
+    border-radius: 5px;
+}

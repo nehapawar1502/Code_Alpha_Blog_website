@@ -1,0 +1,146 @@
+* {
+    /* it removes the white space*/
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    /*height: 74px;*/
+    background-color: rgb(197, 207, 222);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    height: 395px;
+    background-color: rgb(251, 252, 252);
+    padding: 9px;
+    display: flex;
+    margin-top: 32px;
+    background-image: url();
+    position: relative;
+
+}
+
+.content::after {
+    content: "";
+    background-image: url();
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+
+}
+
+.content-right {
+    /*width: 50%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left {
+    font-family: var(--font1);
+    /*width: 50%;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.content-right img {
+    height: 200px;
+    /*border: 2px solid black;
+    border-radius: 200px;*/
+
+
+}
+
+.nav-left {
+    font-size: 25px;
+    display: flex;
+
+}
+
+.nav-left span {
+    font-size: 35px;
+    padding-top: 10px;
+    font-weight: bolder;
+
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+}
+
+.nav-left ul li a:hover {
+    color: rgb(90, 90, 223);
+    font-weight: bolder;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.home-articles {
+
+    background-color: rgb(240, 242, 244);
+    padding: 18px;
+    margin-top: 23px;
+
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img {
+    width: 300px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(81, 110, 190);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.footer a {
+
+    color: black;
+}
+
+.form-box input,
+textarea {
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px 0;
+}

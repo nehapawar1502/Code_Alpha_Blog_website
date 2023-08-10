@@ -1,0 +1,22 @@
+.contact-content {
+    height: 100vh;
+    background-color: rgb(215, 229, 248);
+    padding: 9px;
+    margin-top: 32px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url();
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+
+}
